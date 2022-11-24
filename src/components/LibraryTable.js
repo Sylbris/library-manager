@@ -2,6 +2,11 @@ import * as React from "react";
 import BookItem from "./BookItem";
 import Stack from '@mui/material/Stack';
 
+/**
+ * Book list component.
+ * @param {*} param0 
+ * @returns 
+ */
 function LibraryTable({ booksDB, setBooksDB }) {
   return (
     <Stack>
